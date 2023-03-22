@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+    "> -->
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+
+
+
+</head>
+<body background="images/sky-g8020c0336_1920.jpg">
+    <div class="container-header">
+    <header id="Header">
+        <h1> FORMULARIO </h1>
+   </header>
+    </div>
+
+    <main>
+   
+        <section class="Container-main">
+
+<section class="infos">
+
+    <form action="" method="GET" enctype="multipart/form-data">
+        <H1>INFORMAÇÕES BÁSICAS: </H1>
+<div class="mb-3">
+    <label for="nome-completo"> Name:
+        <input type="text" name="nome" id="nome-completo" required placeholder="Digite seu Nome">
+    </label>
+</div>
+
+<div class="mb-3">
+    <label for="e-mail"> E-mail:
+        <input type="email" name="email" id="e-mail" required placeholder="Digite seu e-mail " >
+    </label>  
+</div>
+
+<div class="mb-3">
+    <label for="phone">Celular:
+        <input type="tel" name="telefone" id="phone" required placeholder="DDD 9 9999-9999" >
+    </label>
+</div>
+
+ <div class="mb-3">
+    <label for="telphone">Telefone:
+        <input type="tel" name="telefone" id="telphone" placeholder="DDD 9999-9999" >
+    </label>
+ </div>
+    
+    
+
+
+<div class="mb-3">
+    <label for="idade"> Idade:
+        <select name="idadee" id="idade" >
+            <option value="select">Select your age</option>
+            <option value="15-17">15 a 17 years</option>
+            <option value="18-24">18 a 24 years</option>
+            <option value="25-30">25 a 30 years</option>
+            <option value="30-35">30 a 35 years</option>
+            <option value="36-40">36 a 40 years </option>
+            <option value="40-45">40 a 45 years</option>
+            <option value="other">other </option>
+        </select>
+    </label>
+ </div>
+
+<div class="mb-3">
+<label for="state"> Estado:
+    <select name="estado" id="state">
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá </option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia </option>
+        <option value="CE">Ceará </option>
+        <option value="DF">Distrito Federal </option>
+        <option value="ES">Espírito Santo </option>
+        <option value="GO">Goiás </option>
+        <option value="MA">Maranhão </option>
+        <option value="MT">Mato Grosso </option>
+        <option value="MS">Mato Grosso do Sul </option>
+        <option selected value="MG">Minas Gerais </option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba </option>
+        <option value="PR">Paraná </option>
+        <option value="PE">Pernambuco </option>
+        <option value="PI">Piauí </option>
+        <option value="RJ">Rio de Janeiro </option>
+        <option value="RN">Rio Grande do Norte </option>
+        <option value="RS">Rio Grande do Sul </option>
+        <option value="RO">Rondônia </option>
+        <option value="RR">Roraima </option>
+        <option value="SC"> Santa Catarina </option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>    
+    </select>
+</label>
+</div>
+
+<div class="mb-3">
+<label for="checkbox-noticias">
+    <input type="checkbox" name="noticias" id="checkbox-noticias" > Deseja ser notificado no e-mail sobre novas vagas.
+</label>
+</div>
+
+</section>
+
+
+ <!-- INFO 2 -->
+
+<section class="infos-2" >
+
+<h1> SOBRE VOCÊ: </h1>
+<div>
+<textarea name="sobremim" id="comentario" cols="30" rows="10" required placeholder=" Aqui deve conter uma breve descrição sobre você."  ></textarea>
+</div>
+
+<div>
+<label for="foto-perfil">
+    Foto <input type="file" name="foto" id="foto-perfil" value = "anexar foto" required >
+</label>
+</div>
+
+</section> 
+
+<!-- INFO 3 -->
+<section class="infos-3" >
+    
+    <h1>ÁREA DE INTERESSE:</h1>
+    <label for="">
+<div>
+    <label for="vaga-1">
+        <input type="radio" id="vaga-1" name="interesse-vaga" value="Marketing">Marketing
+    </label>
+</div>
+
+<div>
+    <label for="vaga-2">
+        <input type="radio" id="vaga-2" name="interesse-vaga" value="Técnologia">Técnologia
+    </label>
+</div>
+
+<div>
+    <label for="vaga-3">
+        <input type="radio" id="vaga-3" name="interesse-vaga" value="Vendas">Vendas
+    </label>
+</div>
+    
+<div>
+    <label for="vaga-4">
+        <input type="radio" id="vaga-4" name="interesse-vaga" value="Administração">Administração
+    </label>
+</div>
+    
+<div>
+    <label for="vaga-5">
+        <input type="radio" id="vaga-5" name="interesse-vaga" value="Estágio">Estágio
+    </label>
+</div>
+    
+<div>
+    <label for="vaga-6">
+        <input type="radio" id="vaga-6" name="interesse-vaga" value="Limpeza">Limpeza
+    </label>
+</div>
+    
+<div>
+    <label for="vaga-7">
+        <input type="radio" id="vaga-7" name="interesse-vaga" value="Outros">Outros
+    </label>
+</div>
+
+   
+<div>
+    <label for="portador">
+        <select name="portadordedeficiencia" id="portador" >]
+            <option value="">Possuo Deficiencia:</option>
+            <option value="">Deficiencia Fisica</option>
+            <option value="">Deficiencia Visual</option>
+            <option value="">Deficiencia Intelectual</option>
+            <option value="">Não possuo deficiencia</option>
+            <option value=""></option>
+        </select>
+    </label>
+</div>
+    
+</section>
+ <label for="btn"> 
+ <input type="submit" name="buton" id="btn" value="Enviar Dados">  
+</label>
+</form>
+
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

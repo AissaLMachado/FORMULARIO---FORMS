@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,10 +12,13 @@
 
 
 </head>
-<body>
+<body background="images/sky-g8020c0336_1920.jpg">
+    <div class="container-header">
     <header id="Header">
         <h1> FORMULARIO </h1>
-                </header>
+   </header>
+    </div>
+
     <main>
    
         <section class="Container-main">
@@ -31,42 +34,43 @@
 </div>
 
 <div class="mb-3">
-    <label for="e-mail"> E-mail
+    <label for="e-mail"> E-mail:
         <input type="email" name="email" id="e-mail" required placeholder="Digite seu e-mail " >
     </label>  
 </div>
 
-
- <div class="mb-3">
-    <label for="telphone">Phone:
-        <input type="tel" name="telefone" id="telphone" required placeholder="DDD 9999-9999" >
-    </label>
- </div>
-    
-    
- <div class="mb-3">
-    <label for="phone">Phone:
+<div class="mb-3">
+    <label for="phone">Celular:
         <input type="tel" name="telefone" id="phone" required placeholder="DDD 9 9999-9999" >
     </label>
 </div>
 
+ <div class="mb-3">
+    <label for="telphone">Telefone:
+        <input type="tel" name="telefone" id="telphone" placeholder="DDD 9999-9999" >
+    </label>
+ </div>
+    
+    
+
+
 <div class="mb-3">
-    <label for="idade"> Age
-        <select name="idadee" id="idade">
+    <label for="idade"> Idade:
+        <select name="idadee" id="idade" >
             <option value="select">Select your age</option>
-            <option value="15-17">15 to 17 years</option>
-            <option value="18-24">18 to 24 years</option>
-            <option value="25-30">25 to 30 years</option>
-            <option value="30-35">30 to 35 years</option>
-            <option value="36-40">36 to 40 years </option>
-            <option value="40-45">40 to 45 years</option>
+            <option value="15-17">15 a 17 years</option>
+            <option value="18-24">18 a 24 years</option>
+            <option value="25-30">25 a 30 years</option>
+            <option value="30-35">30 a 35 years</option>
+            <option value="36-40">36 a 40 years </option>
+            <option value="40-45">40 a 45 years</option>
             <option value="other">other </option>
         </select>
     </label>
  </div>
 
 <div class="mb-3">
-<label for="state"> State
+<label for="state"> Estado:
     <select name="estado" id="state">
         <option value="AC">Acre</option>
         <option value="AL">Alagoas</option>
@@ -114,12 +118,12 @@
 
 <h1> SOBRE VOCÊ: </h1>
 <div>
-<textarea name="sobremim" id="comentario" cols="30" rows="10" required placeholder=" Aqui deve conter uma breve descrição sobre você." ></textarea>
+<textarea name="sobremim" id="comentario" cols="30" rows="10" required placeholder=" Aqui deve conter uma breve descrição sobre você."  ></textarea>
 </div>
 
 <div>
 <label for="foto-perfil">
-    Foto <input type="file" name="foto" id="foto-perfil" value = "anexar foto" >
+    Foto <input type="file" name="foto" id="foto-perfil" value = "anexar foto" required >
 </label>
 </div>
 
@@ -187,8 +191,8 @@
 </div>
     
 </section>
-<!-- <label for="btn"> -->
-<!-- <input type="submit" name="buton" id="btn" value="Enviar Dados">  -->
+ <label for="btn"> 
+ <input type="submit" name="buton" id="btn" value="Enviar Dados">  
 </label>
 </form>
 
